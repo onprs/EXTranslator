@@ -42,7 +42,6 @@ cd EXTranslator
 2. 配置你的自定义设置
 打开 config.py，填入你的工程路径与大模型密钥：
 
-Python
 # 核心路径设置
 INPUT_PATH = "C:/你的解包路径/source" 
 OUTPUT_PATH = "C:/你的导出路径/output"
