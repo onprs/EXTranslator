@@ -1,0 +1,18 @@
+# Python 运行时文件
+__pycache__/
+*.py[cod]
+
+# 游戏本体与导出目录（绝对不能传上云端！）
+source/
+output/
+*.ks
+
+# 你的个人配置与 API 密钥（防止倾家荡产！）
+# 假设你的 API_KEY 写在 config.json 或者某个特定文件里
+translation_progress.json
+TO_UTF-16LE_WITH_BOM.py
+config.json
+.env
+
+# 翻译进度文件（如果你想在多台电脑同步进度，可以不屏蔽 json，但建议屏蔽临时文件）
+*.temp_*
